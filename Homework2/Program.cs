@@ -10,16 +10,16 @@ int secondNumber = Convert.ToInt32(input2);
 
 if(firstNumber > secondNumber)
 {
-    Console.WriteLine("Максимальное число равно:" + firstNumber);
-    Console.WriteLine("Минимальное число равно:" + secondNumber);
+    Console.WriteLine("Максимальное число равно: " + firstNumber);
+    Console.WriteLine("Минимальное число равно: " + secondNumber);
 }
 else if (firstNumber < secondNumber)
 {
-    Console.WriteLine("Максимальное число равно:" + secondNumber);
-    Console.WriteLine("Минимальное число равно:" + firstNumber);
+    Console.WriteLine("Максимальное число равно: " + secondNumber);
+    Console.WriteLine("Минимальное число равно: " + firstNumber);
 }
 
-else if (firstNumber == secondNumber)
+else 
 {
    Console.WriteLine("Числа равны");
 
