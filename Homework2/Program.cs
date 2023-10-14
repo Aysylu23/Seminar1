@@ -22,5 +22,4 @@ else if (firstNumber < secondNumber)
 else 
 {
    Console.WriteLine("Числа равны");
-
 }
