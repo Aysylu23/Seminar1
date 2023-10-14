@@ -10,17 +10,17 @@ int secondNumber = Convert.ToInt32(input2);
 
 if(firstNumber > secondNumber)
 {
-    Console.WriteLine("max" + firstNumber);
+    Console.WriteLine("Максимальное число равно:" + firstNumber);
+    Console.WriteLine("Минимальное число равно:" + secondNumber);
 }
-else
+else if (firstNumber < secondNumber)
 {
-    Console.WriteLine("max" + secondNumber);
+    Console.WriteLine("Максимальное число равно:" + secondNumber);
+    Console.WriteLine("Минимальное число равно:" + firstNumber);
 }
-if(firstNumber < secondNumber)
+
+else if (firstNumber == secondNumber)
 {
-    Console.WriteLine("min" + firstNumber);
-}
-else
-{
-    Console.WriteLine("min" + secondNumber);
+   Console.WriteLine("Числа равны");
+
 }
